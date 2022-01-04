@@ -6,12 +6,10 @@ Feature: checking conditional loops
     Given url 'https://gorest.co.in/public/v1/users/30'
     When method get
     Then status 200
-    Then print response
+    #Then print response
     * def output_value = response
-      Then print output_value
+    #Then print output_value
     #here we have created an empty variable....to store the responses...as outpu
     #now we need to evaluate using if loop....
     #we are checking like if name ends with that mentioned name,,,,then capture the email id of that person and append it to the output variable created....
-    #And eval for (var i=0;i<response.data.length;i++) if(response.data[i].name.endsWith("Nayar ")) output.add(response.data[i].email)
-    #here we have appended email to that empty variable
-  
+    And eval for (var i=0;i<response.data.length;i++) if(response.data[i].name.endsWith("Nayar ")) output_value.add(response.data[i].email)
