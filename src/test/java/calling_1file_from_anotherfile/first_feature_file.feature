@@ -1,4 +1,4 @@
-Feature: Get request
+Feature: Get request practice
 
   #This is the first scenario file
   #The output from this scenario file...will be an input to another scenario file
