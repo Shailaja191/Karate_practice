@@ -9,3 +9,4 @@ Feature: checking URL usage
     When method get
     Then status 200
     Then print response
+		# we get the response
