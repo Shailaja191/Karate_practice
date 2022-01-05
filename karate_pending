@@ -1,10 +1,6 @@
 check cucumber gherkins...basics once again...keywords
-karate config.js....without hardcoding url
-conditional looping statements
-bearer token
 data driven testing
-request headers..etc
 log files
-github push pull commit
+conditional loops
 other sources videos/concepts from utube/udemy
 once check karate documentation available online...
